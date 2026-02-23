@@ -10,11 +10,14 @@ type ButtonLinkProps = {
 
 export default function ButtonLink({ src, alt, text, href }: ButtonLinkProps) {
   return (
-    <motion.button whileHover={{ scale: 1.1 }}>
+    <motion.button
+      className="flex max-w-auto min-h-18 justify-center"
+      whileHover={{ scale: 1.1 }}
+    >
       <a
-        className="bg-blue-200 hover:bg-blue-300 transition
-        w-32 h-18 rounded-lg flex items-center justify-center
-        dark:bg-blue-600 dark:hover:bg-blue-700 duration-0"
+        className="bg-blue-200 hover:bg-blue-300
+        min-w-32 rounded-lg flex items-center justify-center
+        dark:bg-blue-600 dark:hover:bg-blue-700"
         href={href}
         target="_blank"
         rel="noopener noreferrer"

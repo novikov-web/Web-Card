@@ -5,7 +5,7 @@ export default function BgWaveMirrored() {
     <Wave
       fill="oklch(68.5% 0.169 237.323)"
       paused={false}
-      className="flex fixed z-1 bottom-[35%] rotate-180"
+      className="absolute z-1 top-[49%] rotate-180"
       options={{
         height: 1,
         amplitude: 10,

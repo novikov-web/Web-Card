@@ -5,7 +5,7 @@ export default function BgWave() {
     <Wave
       fill="oklch(68.5% 0.169 237.323)"
       paused={false}
-      className="flex fixed z-1 bottom-[50%]"
+      className="absolute z-1 bottom-[49%]"
       options={{
         height: 5,
         amplitude: 10,

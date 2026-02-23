@@ -11,9 +11,9 @@ export default function ButtonTheme({
   onClickMoon,
 }: ButtonThemeProps) {
   return (
-    <div className="fixed w-25 h-auto bg-neutral-50 top-[5%] right-[5%] flex rounded-xl shadowCustom z-50">
+    <div className="absolute max-w-25 h-auto bg-neutral-50 top-[5%] right-[5%] flex rounded-xl shadowCustom z-50">
       <div
-        className="relative w-13.5 rounded-l-xl
+        className="relative max-w-13.5 rounded-l-xl
       hover:bg-yellow-300 bg-yellow-300
       dark:hover:bg-yellow-200 dark:bg-white"
       >
@@ -28,7 +28,7 @@ export default function ButtonTheme({
         </motion.button>
       </div>
       <div
-        className="relative w-13.5 rounded-r-xl
+        className="relative max-w-13.5 rounded-r-xl
       hover:bg-blue-200 bg-white
       dark:hover:bg-blue-300 dark:bg-blue-300"
       >
