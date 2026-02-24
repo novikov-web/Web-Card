@@ -6,6 +6,7 @@ import BgWaveMirrored from "./_components/bgWaveMirrored";
 import DraggableWindow from "./_components/draggableWindow";
 import ButtonOpenWindow from "./_components/buttonOpenWindow";
 import ButtonTheme from "./_components/buttonTheme";
+import SmallScreenWarning from "./_components/smallScreenWarning";
 
 import Image from "next/image";
 import { motion } from "motion/react";
@@ -87,6 +88,7 @@ export default function Home() {
             </div>
           </div>
         </motion.div>
+        <SmallScreenWarning />
       </main>
       <div className="hidden sm:block">
         <BgWave />
