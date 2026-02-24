@@ -49,7 +49,7 @@ export default function Home() {
               <Image
                 width={180}
                 height={180}
-                src="/images/pfp.webp"
+                src="./images/pfp.webp"
                 alt="Picture"
                 className="object-cover rounded-lg mx-auto "
               />
@@ -62,25 +62,25 @@ export default function Home() {
             <div className="h-[5vw]"></div>
             <div className="grid grid-flow-col gap-2 grid-rows-2 sm:grid-rows-1">
               <ButtonLink
-                src="/svg/github.svg"
+                src="./svg/github.svg"
                 alt="github logo"
                 text="Github"
                 href="https://github.com/novikov-web"
               />
               <ButtonLink
-                src="/svg/gmail.svg"
+                src="./svg/gmail.svg"
                 alt="gmail logo"
                 text="Gmail"
                 href="mailto:novikov.alexander55@gmail.com"
               />
               <ButtonLink
-                src="/svg/linkedin.svg"
+                src="./svg/linkedin.svg"
                 alt="linkedin logo"
                 text="LinkedIn"
                 href="https://linkedin.com/in/novikov-web"
               />
               <ButtonOpenWindow
-                src="/svg/star.svg"
+                src="./svg/star.svg"
                 alt="star icon"
                 text="Skills"
                 onClick={visibilityInvert}
