@@ -53,9 +53,12 @@ export default function draggableWindow({ onClick }: draggableWindowProps) {
   }, []);
 
   return (
-    <div ref={cardRef} className="absolute w-128 top-50 left-50 z-5">
-      <div className="flex items-end bg-blue-200 dark:bg-slate-600 p-2 rounded-t-xl cursor-grab shadowCustom ">
-        <p className="ml-2">SKILLS</p>
+    <div
+      ref={cardRef}
+      className="absolute w-88 sm:w-128 top-[45vw] left-[2.5vw] sm:top-50 sm:left-50 z-5"
+    >
+      <div className="flex bg-blue-200 dark:bg-slate-600 p-2 rounded-t-xl cursor-grab shadowCustom font-bold">
+        <div className="ml-2">SKILLS</div>
         <div className="m-auto"></div>
         <button
           className="cursor-pointer hover:scale-110 duration-110 mr-2"

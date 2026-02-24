@@ -15,10 +15,13 @@ export default function ButtonOpenWindow({
   onClick,
 }: ButtonOpenProps) {
   return (
-    <motion.button className="cursor-pointer" whileHover={{ scale: 1.1 }}>
+    <motion.button
+      className="flex max-w-auto min-h-18 justify-center cursor-pointer "
+      whileHover={{ scale: 1.1 }}
+    >
       <a
-        className="bg-blue-200 hover:bg-blue-300 transition
-        w-32 h-18 rounded-lg flex items-center justify-center
+        className="bg-blue-200 hover:bg-blue-300
+        min-w-32 rounded-lg flex items-center justify-center
         dark:bg-blue-600 dark:hover:bg-blue-700 duration-0"
         onClick={onClick}
       >
