@@ -56,7 +56,7 @@ export default function Home() {
               <div className="pl-4 text-6xl w-full text-center sm:text-start">
                 <p>Oleksander</p>
                 <p>Novikov</p>
-                <p className="text-4xl">Aspiring Web-Developer</p>
+                <p className="text-4xl">Front-End Developer</p>
               </div>
             </div>
             <div className="h-[5vw]"></div>
