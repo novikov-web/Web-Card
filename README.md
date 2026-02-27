@@ -1,5 +1,9 @@
 # Web Card
 
+![Page preview](preview.webp)
+
+### [Link to page](https://novikov-web.github.io/Web-Card/)
+
 ### Main tools used to build this project:
 
 1. Next.js
